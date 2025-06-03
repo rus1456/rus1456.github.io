@@ -12,9 +12,9 @@ $source  = $data['source'] ?? '';
 $host = $_SERVER['HTTP_HOST'];
 $referer = $_SERVER['HTTP_REFERER'] ?? '';
 $allowedPages = [
-    "https://$host/index.html",
-    "https://$host/log.htm",
-    "https://$host/"
+    "https://$host/test_new01/index.html",
+    "https://$host/test_new01/log.htm",
+    "https://$host/test_new01/"
 ];
 
 // 🔐 Проверка источника
